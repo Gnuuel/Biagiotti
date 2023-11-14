@@ -1,0 +1,32 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin centHV ($v,$h) {
+    display: flex;
+    align-items: $v;
+    justify-content: $h;
+}
+
+@mixin centerH {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@mixin centerV {
+    display: flex;
+    align-items: center;
+}
+
+
+
+@mixin text($x, $y, $z, $t, $d) {
+    color: $x;
+    font-size: $y;
+    font-weight: $z;
+    line-height: $t;
+    font-family: $d;
+}

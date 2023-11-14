@@ -1,0 +1,71 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+#default-text {
+    margin-top: 140px;
+    .default-text {
+        text-align: center;
+        padding: 0 100px;
+
+
+        span {
+            font-family: $default-font;
+            color: #d1d1d1;
+            font-size: 65px;
+            line-height: 27px;
+            font-weight: 400;
+        }
+
+        h3 {
+            font-family: $text-font;
+            font-size: 30px;
+            line-height: 1.267em;
+            letter-spacing: .05em;
+            text-transform: uppercase;
+            color: $text-color;
+            font-weight: 400;
+        }
+
+        p {
+            color: #5a5a5a;
+            font-family: $text-light-font;
+            font-size: 22px;
+            line-height: 1.136em;
+            font-style: italic;
+            letter-spacing: 0px;
+            text-transform: none;
+            margin-top: 5px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #default-text {
+        margin-top: 140px;
+        .default-text {
+            text-align: center;
+            padding: 0 60px;
+    
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    #default-text {
+        margin-top: 140px;
+        .default-text {
+            text-align: center;
+            padding: 0 30px;
+    
+        }
+    }
+}
+@media only screen and (max-width: 460px) {
+
+
+    h3 {
+        font-size: 25px!important;
+    }
+
+}
+

@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biagiotti - Beauty and Cosmetics Shop</title>
+
+    <!-- icon link  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- icon link  -->
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/style/swiper.css">
+    <!-- Link Swiper's CSS -->
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./home.css">
+    <!-- css link  -->
+</head>
+
+<body>
+    <!-- ----------------start header---------------- -->
+    <header>
+        <div class="navigation-bar">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="./assets/image/logo_black.png" alt="logo">
+                    </div>
+                    <nav class="nav-res">
+                        <ul class="nav-list">
+                            <li class="nav-list-item "><a class="nav-link active" href="./home.html">HOME</a></li>
+                            <li class="nav-list-item pages"><a class="nav-link" href="./pages/Page/pages.html">PAGES</a>
+                                <ul class="pages-list drop">
+                                    <li class="pages-list"><a href="">About Us</a></li>
+                                    <li class="pages-list"><a href="">Our Team</a></li>
+                                    <li class="pages-list"><a href="">FAQ Page</a></li>
+                                    <li class="pages-list"><a href="">Pricing Plans</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-list-item"><a class="nav-link" href="./pages/Blog/blog.html">BLOG</a></li>
+                            <li class="nav-list-item shop"><a class="nav-link" href="./pages/Shop/shop.html">SHOP</a>
+                                <ul class="shop-list drop">
+                                    <li class="shop-list-item"><a href="">Product</a></li>
+                                    <li class="shop-list-item"><a href="">Order Tracking</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-list-item"><a class="nav-link"
+                                    href="./pages/Portfolio/portfolio.html">PORTFOLIO</a></li>
+                            <li class="nav-list-item contact"><a class="nav-link"
+                                    href="./pages/Contact/contact.html">CONTACT</a>
+                                <ul class="contact-list drop">
+                                    <li class="contact-list-item"><a href="">Contact Us</a></li>
+                                    <li class="contact-list-item"><a href="">Get in Touch</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    <ul class="nav-social-list">
+                        <li class="nav-social-list-item">
+                            <i class="ri-search-line list-item-icons"></i>
+                            <div class="search-open">
+                                <input type="text" placeholder="Search..">
+                                <i class="ri-close-fill close closee"></i>
+                            </div>
+                        </li>
+                        <li class="nav-social-list-item bag">
+                            <i class="ri-shopping-bag-line list-item-icons"></i>
+                            <span class="shop">0</span>
+                            <!-- shoping bag -->
+                            <div class="shopping-bag drop-bag">
+                                <p class="none-product">No products in the cart.</p>
+                                <ul class="shopping-bag-list">
+                                    <li class="shopping-bag-list-item"><a class="shopping-bag-link" href="#">
+                                            <figure class="bag-img">
+                                                <img src="./assets/image/Shop-img-1.jpg" alt="shopimg">
+                                            </figure>
+                                            <div class="bag-text">
+                                                <i class="ri-close-fill"></i>
+                                                <h3 class="product-name">Rose Safari</h3>
+                                                <div class="product-price">
+                                                    <p class="product-number">1</p>
+                                                    <span>x</span>
+                                                    <p class="product-price">$35</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="shopping-bag-list-item"><a class="shopping-bag-link" href="#">
+                                            <figure class="bag-img">
+                                                <img src="./assets/image/Shop-img-1.jpg" alt="shopimg">
+                                            </figure>
+                                            <div class="bag-text">
+                                                <i class="ri-close-fill"></i>
+                                                <h3 class="product-name">Rose Safari</h3>
+                                                <div class="product-price">
+                                                    <p class="product-number">1</p>
+                                                    <span>x</span>
+                                                    <p class="product-price">$35</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="only-price">
+                                    <h4>TOTAL:</h4>
+                                    <p class="total-price">$130.00</p>
+                                </div>
+                                <div class="bag-buttons">
+                                    <a href="#" class="view">VIEW CART</a>
+                                    <a href="#" class="check">CHECK OUT</a>
+                                </div>
+                            </div>
+                            <!-- shoping bag -->
+                        </li>
+                        <li class="nav-social-list-item">
+                            <i class="ri-heart-3-line list-item-icons"></i>
+                            <span class="wish">0</span>
+                        </li>
+                        <li class="nav-social-list-item burger">
+                            <i class="ri-menu-line destkop list-item-icons"></i>
+                            <i class="ri-menu-line phone list-item-icons" id="telephone"></i>
+                            <div class="burger-open">
+                                <div class="for-close">
+                                    <i class="ri-close-fill close closee"></i>
+                                    <div class="logo-cmnt">
+                                        <figure class="resp-logo-figure">
+                                            <a href="#">
+                                                <img src="./assets/image/logo_white.png" alt="">
+                                            </a>
+                                        </figure>
+                                        <p>An oasis of online beauty built specifically so your new cosmetics site can
+                                            take everyone’s
+                                            breaths away.
+                                        </p>
+                                        <div class="resp-social-icons">
+                                            <ul class="resp-social-list">
+                                                <li class="resp-social-list-item">
+                                                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                                                </li>
+                                                <li class="resp-social-list-item">
+                                                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                                                </li>
+                                                <li class="resp-social-list-item">
+                                                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                                                </li>
+                                                <li class="resp-social-list-item">
+                                                    <a href="#"><i class="ri-pinterest-fill"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="collections">
+                                        <ul class="collections-list">
+                                            COLLECTIONS
+                                            <li class="collections-list-item">
+                                                <a href="#">Glowing skin is a result</a>
+                                            </li>
+                                            <li class="collections-list-item">
+                                                <a href="#">ABCDEH Beauty - Forever Young</a>
+                                            </li>
+                                            <li class="collections-list-item">
+                                                <a href="#">Pure Skin Solutions</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-bar-scroll">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="./assets/image/logo_white.png" alt="logo">
+                    </div>
+                    <nav class="nav-res">
+                        <ul class="nav-list">
+                            <li class="nav-list-item "><a class="nav-link active" href="./home.html">HOME</a></li>
+                            <li class="nav-list-item pages"><a class="nav-link" href="./pages/Page/pages.html">PAGES</a>
+                                <ul class="pages-list drop">
+                                    <li class="pages-list"><a href="">About Us</a></li>
+                                    <li class="pages-list"><a href="">Our Team</a></li>
+                                    <li class="pages-list"><a href="">FAQ Page</a></li>
+                                    <li class="pages-list"><a href="">Pricing Plans</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-list-item"><a class="nav-link" href="./pages/Blog/blog.html">BLOG</a></li>
+                            <li class="nav-list-item shop"><a class="nav-link" href="./pages/Shop/shop.html">SHOP</a>
+                                <ul class="shop-list drop">
+                                    <li class="shop-list-item"><a href="">Product</a></li>
+                                    <li class="shop-list-item"><a href="">Order Tracking</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-list-item"><a class="nav-link"
+                                    href="./pages/Portfolio/portfolio.html">PORTFOLIO</a></li>
+                            <li class="nav-list-item contact"><a class="nav-link"
+                                    href="./pages/Contact/contact.html">CONTACT</a>
+                                <ul class="contact-list drop">
+                                    <li class="contact-list-item"><a href="">Contact Us</a></li>
+                                    <li class="contact-list-item"><a href="">Get in Touch</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    <ul class="nav-social-list">
+                        <li class="nav-social-list-item">
+                            <i class="ri-search-line list-item-icons"></i>
+                        </li>
+                        <li class="nav-social-list-item bag">
+                            <i class="ri-shopping-bag-line list-item-icons"></i>
+                            <span class="shop">0</span>
+                            <!-- shoping bag -->
+                            <div class="shopping-bag drop-bag">
+                                <p class="none-product">No products in the cart.</p>
+                                <ul class="shopping-bag-list">
+                                    <li class="shopping-bag-list-item"><a class="shopping-bag-link" href="#">
+                                            <figure class="bag-img">
+                                                <img src="./assets/image/Shop-img-1.jpg" alt="shopimg">
+                                            </figure>
+                                            <div class="bag-text">
+                                                <i class="ri-close-fill"></i>
+                                                <h3 class="product-name">Rose Safari</h3>
+                                                <div class="product-price">
+                                                    <p class="product-number">1</p>
+                                                    <span>x</span>
+                                                    <p class="product-price">$35</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="shopping-bag-list-item"><a class="shopping-bag-link" href="#">
+                                            <figure class="bag-img">
+                                                <img src="./assets/image/Shop-img-1.jpg" alt="shopimg">
+                                            </figure>
+                                            <div class="bag-text">
+                                                <i class="ri-close-fill"></i>
+                                                <h3 class="product-name">Rose Safari</h3>
+                                                <div class="product-price">
+                                                    <p class="product-number">1</p>
+                                                    <span>x</span>
+                                                    <p class="product-price">$35</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="only-price">
+                                    <h4>TOTAL:</h4>
+                                    <p class="total-price">$130.00</p>
+                                </div>
+                                <div class="bag-buttons">
+                                    <a href="#" class="view">VIEW CART</a>
+                                    <a href="#" class="check">CHECK OUT</a>
+                                </div>
+                            </div>
+                            <!-- shoping bag -->
+                        </li>
+                        <li class="nav-social-list-item">
+                            <i class="ri-heart-3-line list-item-icons"></i>
+                            <span class="wish">0</span>
+                        </li>
+                        <li class="nav-social-list-item burger">
+                            <i class="ri-menu-line destkop list-item-icons"></i>
+                            <i class="ri-menu-line phone list-item-icons" id="telephone"></i>
+                            <div class="burger-open">
+                                <div class="for-close">
+                                    <i class="ri-close-fill close closee"></i>
+                                    <div class="logo-cmnt">
+                                        <figure class="resp-logo-figure">
+                                            <a href="#">
+                                                <img src="./assets/image/logo_white.png" alt="">
+                                            </a>
+                                        </figure>
+                                        <p>An oasis of online beauty built specifically so your new cosmetics site can
+                                            take everyone’s
+                                            breaths away.
+                                        </p>
+                                        <div class="resp-social-icons">
+                                            <ul class="resp-social-list">
+                                                <li class="resp-social-list-item">
+                                                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                                                </li>
+                                                <li class="resp-social-list-item">
+                                                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                                                </li>
+                                                <li class="resp-social-list-item">
+                                                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                                                </li>
+                                                <li class="resp-social-list-item">
+                                                    <a href="#"><i class="ri-pinterest-fill"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="collections">
+                                        <ul class="collections-list">
+                                            COLLECTIONS
+                                            <li class="collections-list-item">
+                                                <a href="#">Glowing skin is a result</a>
+                                            </li>
+                                            <li class="collections-list-item">
+                                                <a href="#">ABCDEH Beauty - Forever Young</a>
+                                            </li>
+                                            <li class="collections-list-item">
+                                                <a href="#">Pure Skin Solutions</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ----------------end header---------------- -->
+
+    <!-- ----------------start main---------------- -->
+    <main>
+
+        <!-- start base  -->
+        <section id="base">
+            <div class="base">
+                <div class="base-sliders slider">
+                    <div class="slide active-slide">
+                        <div class="slide-text">
+                            <figure>
+                                <img src="./assets/image/slide-text-img.png" alt="">
+                            </figure>
+                            <h2>INFINITE BEAUTY</h2>
+                            <p>At vero eos et iusto odio dignissimos ducimus qui
+                                blanditiis praesentium voluptatum deleniti atque
+                                corrupti quos dolores te quas
+                            </p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-text">
+                            <figure>
+                                <img src="./assets/image/slide-text-img.png" alt="">
+                            </figure>
+                            <h2>SUMMER LOOK</h2>
+                            <p>At vero eos et iusto odio dignissimos ducimus qui
+                                blanditiis praesentium voluptatum deleniti atque
+                                corrupti quos dolores te quas
+                            </p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-text">
+                            <figure>
+                                <img src="./assets/image/slide-text-img.png" alt="">
+                            </figure>
+                            <h2>ORIGINAL STYLE</h2>
+                            <p>At vero eos et iusto odio dignissimos ducimus qui
+                                blanditiis praesentium voluptatum deleniti atque
+                                corrupti quos dolores te quas
+                            </p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="prev"><i class="ri-arrow-left-s-line"></i></button>
+                    <button class="next"><i class="ri-arrow-right-s-line"></i></button>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- end base  -->
+
+        <!-- start defaultext  -->
+        <section id="default-text">
+            <div class="default-text">
+                <span>perfect shades</span>
+                <h3>FIND YOUR BEAUTY MATCH</h3>
+                <p>At vero eos et accusamus et iusto</p>
+            </div>
+        </section>
+        <!-- end defaultext  -->
+
+        <!-- start stores  -->
+        <section id="stores">
+            <div class="stores">
+                <div class="container">
+                    <!-- slider box  -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper slide-boxes">
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./assets/image/box-slider1.jpg" alt="slide">
+                                        <div class="box-hover">
+                                            <div class="hover-icons">
+                                                <i class="ri-add-line"></i>
+                                                <i class="ri-eye-fill"></i>
+                                                <i class="ri-heart-3-line"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-details">
+                                        <a href="#">FILM EYESHADOW</a>
+                                        <p>Lip Gloss</p>
+                                        <h5>$25.00</h5>
+                                        <div class="box-icons">
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./assets/image/box-slider2.jpg" alt="slide">
+                                        <div class="box-hover">
+                                            <div class="hover-icons">
+                                                <i class="ri-add-line"></i>
+                                                <i class="ri-eye-fill"></i>
+                                                <i class="ri-heart-3-line"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-details">
+                                        <a href="#">WILD PALETTES</a>
+                                        <p>Lip Gloss</p>
+                                        <h5>$25.00</h5>
+                                        <div class="box-icons">
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./assets/image/box-slider3.jpg" alt="slide">
+                                        <div class="box-hover">
+                                            <div class="hover-icons">
+                                                <i class="ri-add-line"></i>
+                                                <i class="ri-eye-fill"></i>
+                                                <i class="ri-heart-3-line"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-details">
+                                        <a href="#">ROSE SAFARI</a>
+                                        <p>Lip Gloss</p>
+                                        <h5>$25.00</h5>
+                                        <div class="box-icons">
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./assets/image/box-slider5.jpg" alt="slide">
+                                        <div class="box-hover">
+                                            <div class="hover-icons">
+                                                <i class="ri-add-line"></i>
+                                                <i class="ri-eye-fill"></i>
+                                                <i class="ri-heart-3-line"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-details">
+                                        <a href="#">SUMMER MIRAGE</a>
+                                        <p>Lip Gloss</p>
+                                        <h5>$25.00</h5>
+                                        <div class="box-icons">
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./assets/image/box-slider4.jpg" alt="slide">
+                                        <div class="box-hover">
+                                            <div class="hover-icons">
+                                                <i class="ri-add-line"></i>
+                                                <i class="ri-eye-fill"></i>
+                                                <i class="ri-heart-3-line"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="box-details">
+                                        <a href="#">STICK LIPSTICK</a>
+                                        <p>Lip Gloss</p>
+                                        <h5>$25.00</h5>
+                                        <div class="box-icons">
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./assets/image/box-slider3.jpg" alt="slide">
+                                        <div class="box-hover">
+                                            <div class="hover-icons">
+                                                <i class="ri-add-line"></i>
+                                                <i class="ri-eye-fill"></i>
+                                                <i class="ri-heart-3-line"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-details">
+                                        <a href="#">ROSE SAFARI</a>
+                                        <p>Lip Gloss</p>
+                                        <h5>$25.00</h5>
+                                        <div class="box-icons">
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                            <i class="ri-star-s-fill"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- slider box  -->
+                </div>
+            </div>
+
+        </section>
+        <!-- end stores  -->
+
+        <!-- start gallery  -->
+        <section id="gallery">
+            <div class="gallery">
+                <div class="full-gallery">
+                    <figure><img src="./assets/image/gallery1.jpg" alt="makeup">
+                        <div class="gallery-overlay">
+                            <h3>LIP LINER</h3>
+                            <p>Beauty. Bodycare</p>
+                        </div>
+                    </figure>
+                    <figure><img src="./assets/image/gallery2.jpg" alt="makeup">
+                        <div class="gallery-overlay">
+                            <h3>STRATCH EYELINER</h3>
+                            <p>Beauty. Cosmetics</p>
+                        </div>
+                    </figure>
+                    <figure><img src="./assets/image/gallery3.jpg" alt="makeup">
+                        <div class="gallery-overlay">
+                            <h3>BAKED BLUSH</h3>
+                            <p>Beauty. Make Up</p>
+                        </div>
+                    </figure>
+                    <figure><img src="./assets/image/gallery4.jpg" alt="makeup">
+                        <div class="gallery-overlay">
+                            <h3>POINTY BALL</h3>
+                            <p>Beauty. Bodycare</p>
+                        </div>
+                    </figure>
+                    <figure><img src="./assets/image/gallery5.jpg" alt="makeup">
+                        <div class="gallery-overlay">
+                            <h3>MINERAL BLUSH</h3>
+                            <p>Beauty. Cosmetics</p>
+                        </div>
+                    </figure>
+                    <figure><img src="./assets/image/gallery6.jpg" alt="makeup">
+                        <div class="gallery-overlay">
+                            <h3>FACE PRIMER</h3>
+                            <p>Beauty. Make Up</p>
+                        </div>
+                    </figure>
+                    <figure><img src="./assets/image/gallery7.jpg" alt="makeup">
+                        <div class="gallery-overlay">
+                            <h3>COOL PRIMER</h3>
+                            <p>Beauty. Bodycare</p>
+                        </div>
+                    </figure>
+                    <figure><img src="./assets/image/gallery8.jpg" alt="makeup">
+                        <div class="gallery-overlay">
+                            <h3>SKIN CARE</h3>
+                            <p>Beauty. Cosmetics</p>
+                        </div>
+                    </figure>
+                    <div>
+                    </div>
+        </section>
+        <!-- end gallery  -->
+
+        <!-- start companies  -->
+        <section id="companies">
+            <div class="companies">
+                <div class="container">
+                    <div class="full-company">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper company-card">
+                                <div class="swiper-slide company-card">
+                                    <figure>
+                                        <img class="white" src="./assets/image/companyArabeswht.png" alt="company">
+                                        <img class="black" src="./assets/image/companyArabesblack.png" alt="company2">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide company-card">
+                                    <figure>
+                                        <img class="white" src="./assets/image/companyBwht.png" alt="company">
+                                        <img class="black" src="./assets/image/companyBblack.png" alt="company2">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide company-card">
+                                    <figure>
+                                        <img class="white" src="./assets/image/companyEstellewht.png" alt="company">
+                                        <img class="black" src="./assets/image/companyEstelleblack.png" alt="company2">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide company-card">
+                                    <figure>
+                                        <img class="white" src="./assets/image/companyEyelashwht.png" alt="company">
+                                        <img class="black" src="./assets/image/companyEyelashblack.png" alt="company2">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide company-card">
+                                    <figure>
+                                        <img class="white" src="./assets/image/companyFacewht.png" alt="company">
+                                        <img class="black" src="./assets/image/companyFaceBblack.png" alt="company2">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide company-card">
+                                    <figure>
+                                        <img class="white" src="./assets/image/companyLogowht.png" alt="company">
+                                        <img class="black" src="./assets/image/companyLogoblack.png" alt="company2">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide company-card">
+                                    <figure>
+                                        <img class="white" src="./assets/image/companySatincwht.png" alt="company">
+                                        <img class="black" src="./assets/image/companySatincblack.png" alt="company2">
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide company-card">
+                                    <figure>
+                                        <img class="white" src="./assets/image/companyVoguewht.png" alt="company">
+                                        <img class="black" src="./assets/image/companyVogueblack.png" alt="company2">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end companies  -->
+
+        <!-- start testimonials -->
+        <section id="testimonials">
+            <div class="testimonials">
+                <div class="full-testimonials">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiperTesti">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide-testimonials">
+                                <p class="shades">perfect shades</p>
+                                <h3>TESTIMONIALS</h3>
+                                <p class="stabil">I would go to cosmetics counters and buy two or three foundations and
+                                    powders,
+                                    and then
+                                    go home and mix them before I came up with something suitable for my undertones.</p>
+                                <span>- Iman -</span>
+                            </div>
+                            <div class="swiper-slide slide-testimonials">
+                                <p class="shades">perfect shades</p>
+                                <h3>TESTIMONIALS</h3>
+                                <p class="stabil">I don't work with a glam squad to get me together for the red carpet,
+                                    I really
+                                    enjoy the time it takes to do it myself, to choose my clothes and do my own makeup
+                                    and my
+                                    own hair.</p>
+                                <span>- Dita Von Teese -</span>
+                            </div>
+                            <div class="swiper-slide slide-testimonials">
+                                <p class="shades">perfect shades</p>
+                                <h3>TESTIMONIALS</h3>
+                                <p class="stabil">Biagiotti is definitely the place to be when it comes to makeup: You
+                                    go into
+                                    the store, and touch it, and try it, and love it. I've never bought anything on the
+                                    Internet. I like experience </p>
+                                <span>- Marc Jacobs -</span>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="text-testimonials">
+                        <p>
+                            You said about us
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end testimonials -->
+
+        <!-- start number -->
+        <section id="number">
+            <div class="container">
+                <div class="number-cards">
+                    <div class="number-card">
+                        <span>42</span>
+                        <div class="card-right">
+                            <h4>ON-LINE PURCHASE</h4>
+                            <p>At vero eos et accusamus et iusto odio digniss
+                                ducimus qui blanditiis praesentium volu
+                            </p>
+                        </div>
+                    </div>
+                    <div class="number-card">
+                        <span>57</span>
+                        <div class="card-right">
+                            <h4>FREE SHIPPING</h4>
+                            <p>At vero eos et accusamus et iusto odio digniss
+                                ducimus qui blanditiis praesentium volu
+                            </p>
+                        </div>
+                    </div>
+                    <div class="number-card">
+                        <span>32</span>
+                        <div class="card-right">
+                            <h4>MONEY BACK</h4>
+                            <p>At vero eos et accusamus et iusto odio digniss
+                                ducimus qui blanditiis praesentium volu
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end number -->
+
+        <!-- start timeline  -->
+        <section id="timeline-one">
+            <div class="full-timeline-one">
+                <div class="bg-image-one"></div>
+                <div class="timeline-text-one">
+                    <span>Timeline</span>
+                    <h3>HOW DID WE GET HERE</h3>
+                    <p class="large">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupt</p>
+                    <p class="small">At vero eos et accusamus et iusto odi odgnissimos ducimus qui blanditiis
+                        praesentium volup tatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi
+                    </p>
+                    <a href="#">FIND BEAUTY</a>
+                </div>
+            </div>
+        </section>
+        <section id="timeline-two">
+
+            <div class="full-timeline-two">
+                <div class="timeline-text-two">
+                    <span>Timeline</span>
+                    <h3>WHAT IT TAKES TO LEAD</h3>
+                    <p class="large">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupt</p>
+                    <p class="small">At vero eos et accusamus et iusto odi odgnissimos ducimus qui blanditiis
+                        praesentium volup tatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi
+                    </p>
+                    <a href="#">FIND BEAUTY</a>
+                </div>
+
+                <div class="bg-image-two"></div>
+            </div>
+        </section>
+        <!-- end timeline  -->
+
+
+        <!-- start careshop -->
+        <section id="care-shop">
+            <div class="care-shop">
+                <div class="container">
+                    <div class="default-text">
+                        <div class="default-text">
+                            <span>perfect shades</span>
+                            <h3>LATEST SKINCARE ESSENTIALS</h3>
+                            <p>At vero eos et accusamus et iusto</p>
+                        </div>
+                    </div>
+                    <div class="care-shop-cards">
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/carechop1.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>REST COMPLEX</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$36.00</span>
+                            </div>
+
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop2.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>SWEET MILK</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$46.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop3.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>HAND CREAM</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$52.00</span>
+                            </div>
+
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop4.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>MOIST LOTION</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$43.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop5.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>CREAM-MILK EX</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$38.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop6.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>BODY CREAM</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$55.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop7.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>BODY MIST</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$45.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop8.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>ROLL EYE GEL</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$33.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop9.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>SEBUM CONTROL</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$24.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop10.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>HYDRA ON</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$34.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop11.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>REWIND EFFECT</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$28.00</span>
+                            </div>
+                        </div>
+                        <div class="care-shop-card">
+                            <figure>
+                                <img src="./assets/image/careshop12.jpg" alt="">
+                            </figure>
+                            <div class="care-text">
+                                <h3>CLEAN CREAM</h3>
+                                <p>An dico accommodare ius, porro</p>
+                                <span>$32.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end careshop -->
+
+        <!-- start services  -->
+        <section id="services">
+            <div class="services">
+                <div class="container">
+                    <div class="service-cards">
+                        <div class="service-card">
+                            <div class="card-top">
+                                <figure class="servicon"><img
+                                        style="background-image: url(./assets/image/services1.png);"
+                                        src="./assets/image/services11.png" alt="servic"></figure>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>FRAGRANCE</h3>
+                                <p>At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis
+                                    praesentium</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="card-top">
+                                <figure class="servicon"><img
+                                        style="background-image: url(./assets/image/services2.png);"
+                                        src="./assets/image/services22.png" alt="servic"></figure>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>QUALITY</h3>
+                                <p>At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis
+                                    praesentium</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="card-top">
+                                <figure class="servicon"><img
+                                        style="background-image: url(./assets/image/services3.png);"
+                                        src="./assets/image/services33.png" alt="servic"></figure>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>PETROLEUM</h3>
+                                <p>At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis
+                                    praesentium</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="card-top">
+                                <figure class="servicon"><img
+                                        style="background-image: url(./assets/image/services4.png);"
+                                        src="./assets/image/services44.png" alt="servic"></figure>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>COLORS</h3>
+                                <p>At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis
+                                    praesentium</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="card-top">
+                                <figure class="servicon"><img
+                                        style="background-image: url(./assets/image/services5.png);"
+                                        src="./assets/image/services55.png" alt="servic"></figure>
+                            </div>
+                            <div class="card-bottom">
+                                <h3>NATURAL</h3>
+                                <p>At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis
+                                    praesentium</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end services  -->
+
+        <!-- start beautymatch  -->
+        <section id="beauty-match">
+            <div class="beauty-match">
+                <div class="container">
+                    <div class="default-text">
+                        <div class="default-text">
+                            <span>perfect shades</span>
+                            <h3>FIND YOUR BEAUTY MATCH</h3>
+                            <p>At vero eos et accusamus et iusto</p>
+                        </div>
+                    </div>
+                    <div class="beauty-match-cards">
+                        <div class="beauty-match-card">
+                            <figure>
+                                <a href="#">
+                                    <img src="./assets/image/match1.jpg" alt="d">
+                                    <div class="img-overlay"></div>
+                                </a>
+                                <div class="date-beuty">
+                                    <span>Apr</span>
+                                    <p>08</p>
+                                </div>
+                            </figure>
+                            <div class="beauty-card-bottom">
+                                <div class="cardspan">
+                                    <a href="#">Lipstick</a>
+                                    <span>_</span>
+                                    <span>By</span>
+                                    <a href="#">Janny Joe</a>
+                                </div>
+                                <div class="card-text">
+                                    <h3>THE COSMETICS WORLD</h3>
+                                    <p>Est diam debitis an, error recusabo id pro, quo eripuit civibus ut. Mel ut
+                                        tamquam erroribus, ad nonumy vituperata mei.Et
+                                    </p>
+                                </div>
+                                <div class="hover-link">
+                                    <div class="line"></div>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="beauty-match-card">
+                            <figure>
+                                <a href="#">
+                                    <img src="./assets/image/match2.jpg" alt="d">
+                                    <div class="img-overlay"></div>
+                                </a>
+                                <div class="date-beuty">
+                                    <span>Apr</span>
+                                    <p>08</p>
+                                </div>
+                            </figure>
+                            <div class="beauty-card-bottom">
+                                <div class="cardspan">
+                                    <a href="#">Lipstick</a>
+                                    <span>_</span>
+                                    <span>By</span>
+                                    <a href="#">Janny Joe</a>
+                                </div>
+                                <div class="card-text">
+                                    <h3>PREP A GOOD PRIMER</h3>
+                                    <p>Est diam debitis an, error recusabo id pro, quo eripuit civibus ut. Mel ut
+                                        tamquam erroribus, ad nonumy vituperata mei.Et
+                                    </p>
+                                </div>
+                                <div class="hover-link">
+                                    <div class="line"></div>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="beauty-match-card">
+                            <figure>
+                                <a href="#">
+                                    <img src="./assets/image/match3.jpg" alt="d">
+                                    <div class="img-overlay"></div>
+                                </a>
+                                <div class="date-beuty">
+                                    <span>Apr</span>
+                                    <p>08</p>
+                                </div>
+                            </figure>
+                            <div class="beauty-card-bottom">
+                                <div class="cardspan">
+                                    <a href="#">Lipstick</a>
+                                    <span>_</span>
+                                    <span>By</span>
+                                    <a href="#">Janny Joe</a>
+                                </div>
+                                <div class="card-text">
+                                    <h3>TKNOW HOW TO APPLY IT</h3>
+                                    <p>Est diam debitis an, error recusabo id pro, quo eripuit civibus ut. Mel ut
+                                        tamquam erroribus, ad nonumy vituperata mei.Et
+                                    </p>
+                                </div>
+                                <div class="hover-link">
+                                    <div class="line"></div>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="beauty-match-card">
+                            <figure>
+                                <a href="#">
+                                    <img src="./assets/image/match4.jpg" alt="d">
+                                    <div class="img-overlay"></div>
+                                </a>
+                                <div class="date-beuty">
+                                    <span>Apr</span>
+                                    <p>08</p>
+                                </div>
+                            </figure>
+                            <div class="beauty-card-bottom">
+                                <div class="cardspan">
+                                    <a href="#">Lipstick</a>
+                                    <span>_</span>
+                                    <span>By</span>
+                                    <a href="#">Janny Joe</a>
+                                </div>
+                                <div class="card-text">
+                                    <h3>50 SHADES OF GREAT</h3>
+                                    <p>Est diam debitis an, error recusabo id pro, quo eripuit civibus ut. Mel ut
+                                        tamquam erroribus, ad nonumy vituperata mei.Et
+                                    </p>
+                                </div>
+                                <div class="hover-link">
+                                    <div class="line"></div>
+                                    <a href="#">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end beautymatch  -->
+
+        <!-- start subscribe  -->
+        <section id="subscribe">
+            <div class="subscribe">
+                <div class="container">
+                    <div class="full-subscribe">
+                        <div class="sub-text">
+                            <span>Subscribe</span>
+                        </div>
+                        <form>
+                            <input placeholder="E-mail address" type="mail">
+                            <button>SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end subscribe  -->
+
+        <!-- start instagram  -->
+        <section id="instagram">
+            <div class="instagram">
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram1.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram2.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram3.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram4.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram5.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram6.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram7.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram8.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram9.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram10.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram11.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/image/instagram12.jpg" alt="instagram">
+                        <div class="img-overlay"></div>
+                    </a>
+                </figure>
+                <div class="instagram-extra">
+                    <span>instagram</span>
+                    <h3>DAILY INSPIRATION</h3>
+                    <p>#theme</p>
+                </div>
+            </div>
+        </section>
+        <!-- end instagram  -->
+
+    </main>
+    <!-- ----------------end main---------------- -->
+
+    <!-- ----------------start footer---------------- -->
+    <footer>
+        <div class="footer">
+            <figure class="logo">
+                <a href="#">
+                    <img src="./assets/image/logo_white.png" alt="">
+                </a>
+            </figure>
+            <div class="full-footer">
+                <div class="contact">
+                    <ul class="contact-list">
+                        CONTACT
+                        <li class="contact-list-item">
+                            <span>Address:</span>
+                            <a href="#">Seestrasse 21, Zurich</a>
+                        </li>
+                        <li class="contact-list-item">
+                            <span>E-mail:</span>
+                            <a href="#">biagiotti@qodeinteractive.com</a>
+                        </li>
+                        <li class="contact-list-item">
+                            <span>Phone :</span>
+                            <a href="#">+ 99 411 725 39 12</a>
+                        </li>
+                    </ul>
+                    <figure>
+                        <img src="./assets/image/footer-img-1.png" alt="shopcard">
+                    </figure>
+
+                </div>
+
+                <div class="logo-cmnt">
+                    <figure class="resp-logo-figure">
+                        <a href="#">
+                            <img src="./assets/image/logo_white.png" alt="">
+                        </a>
+                    </figure>
+                    <p>An oasis of online beauty built specifically so your new cosmetics site can take everyone’s
+                        breaths away.
+                    </p>
+                    <div class="resp-social-icons">
+                        <ul class="resp-social-list">
+                            <li class="resp-social-list-item">
+                                <a href="#"><i class="ri-facebook-fill"></i></a>
+                            </li>
+                            <li class="resp-social-list-item">
+                                <a href="#"><i class="ri-twitter-fill"></i></a>
+                            </li>
+                            <li class="resp-social-list-item">
+                                <a href="#"><i class="ri-instagram-fill"></i></a>
+                            </li>
+                            <li class="resp-social-list-item">
+                                <a href="#"><i class="ri-pinterest-fill"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="collections">
+                    <ul class="collections-list">
+                        COLLECTIONS
+                        <li class="collections-list-item">
+                            <a href="#">Glowing skin is a result</a>
+                        </li>
+                        <li class="collections-list-item">
+                            <a href="#">ABCDEH Beauty - Forever Young</a>
+                        </li>
+                        <li class="collections-list-item">
+                            <a href="#">Pure Skin Solutions</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="money-cards-social">
+                <figure>
+                    <img src="./assets/image/footer-img-1.png" alt="shopcard">
+                </figure>
+                <div class="social-icons">
+                    <ul class="social-list">
+                        <li class="social-list-item">
+                            <a href="#"><i class="ri-facebook-fill"></i></a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="#"><i class="ri-instagram-fill"></i></a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="#"><i class="ri-pinterest-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-nav">
+            <nav>
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-list-item">
+                        <a href="#">PRIVACY POLICY</a>
+                    </li>
+                    <li class="footer-nav-list-item">
+                        <a href="#">TERMS AND CONDITIONS</a>
+                    </li>
+                    <li class="footer-nav-list-item">
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li class="footer-nav-list-item">
+                        <a href="#">SHIPPING INFO</a>
+                    </li>
+                    <li class="footer-nav-list-item">
+                        <a href="#">RETURNS/EXCHANGES</a>
+                    </li>
+                    <li class="footer-nav-list-item">
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- ----------------end footer---------------- -->
+    <a href="#" class="banaTikla"></a>
+
+    <!-- home js  -->
+    <script src="./home.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+</body>
+
+</html>
